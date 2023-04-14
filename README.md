@@ -1,6 +1,5 @@
 # New_EvaluationManagement
- Campus Comprehensive Evaluation Management System Based on SpringBoot；
-该系统为校园综合测评管理系统；
-inc_admin 为后端管理系统；
-inc_view 为前端管理系统；
-本系统基于Spring Boot架构和Vue框架，集活动管理、综合测评管理、综合测评可视化于一体使得模块多样化，使用OCR文字识别技术来降低手动输入错误率，以及通过WebSocket技术实现向学生与教师推送成绩预警消息，且基于学生参加过的活动推送相同分类活动的算法来提高学生参与活动的积极性；提出不同学校可以设定不同评分准则，从而实现多样评分准则的适用性。
+简介：
+基于SpringBoot的校园综合评价管理系统；该系统为校园综合测评管理系统； inc_admin 为后端管理系统； inc_view 为前端管理系统； 本系统基于Spring Boot架构和Vue框架，集活动管理、综合测评管理、综合测评可视化于一体使得模块多样化，使用OCR文字识别技术来降低手动输入错误率，以及通过WebSocket技术实现向学生与教师推送成绩预警消息，且基于学生参加过的活动推送相同分类活动的算法来提高学生参与活动的积极性；提出不同学校可以设定不同评分准则，从而实现多样评分准则的适用性。
+Campus Comprehensive Evaluation Management System Based on SpringBoot; The system is a campus comprehensive evaluation management system; inc_admin is the back-end management system; inc_view is the front-end management system;
+This system is based on the Spring Boot architecture and the Vue framework. It integrates activity management, comprehensive assessment management, and comprehensive assessment visualization to diversify the modules. It uses OCR text recognition technology to reduce the error rate of manual input. Push grade warning messages to students and teachers through WebSocket technology, and based on the activities that students have participated in, push the same classified activities to improve the enthusiasm of students to participate in activities; it is proposed that different schools can set different scoring criteria to achieve multiple scoring criteria.
