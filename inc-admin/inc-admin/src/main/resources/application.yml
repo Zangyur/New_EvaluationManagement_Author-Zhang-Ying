@@ -1,0 +1,39 @@
+server:
+  port: 8001
+spring:
+  profiles:
+    active: dev
+  application:
+    name: api-admin
+  servlet:
+    multipart:
+      max-file-size: 1024Mb
+      max-request-size: 1204Mb
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  mail:
+    host: smtp.qq.com
+    username: 1011026000@qq.com
+    password: brekijtyejhvbeia
+    port: 587
+    default-encoding: utf-8
+    properties:
+      mail:
+        smtp:
+          auth: true #授权
+          starttls:
+            enable: false
+            required: false
+mybatis:
+  mapper-locations: mapper/**Mapper.xml,mapper/sys/**Mapper.xml,mapper/biz/**Mapper.xml
+  configuration:
+      map-underscore-to-camel-case: true
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#logging:
+#  level: debug
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
